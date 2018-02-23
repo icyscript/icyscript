@@ -1,0 +1,405 @@
+/*
+ * # Semantic - Breadcrumb
+ * http://github.com/jlukic/semantic-ui/
+ *
+ *
+ * Copyright 2013 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/* Special Forms */
+
+@font-face {
+	font-family: 'Icons';
+	src: url(../fonts/icons.eot);
+	src: url(../fonts/icons.eot?#iefix) format('embedded-opentype'),
+  	url(../fonts/icons.svg#icons) format('svg'),
+  	url(../fonts/icons.woff) format('woff'),
+  	url(../fonts/icons.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: inherit;
+	text-transform: none;
+}
+
+/* Field */
+
+.ui.form .field {
+	clear: both;
+	margin: 0em 0em 1em;
+}
+
+/* Content */
+
+.ui.form > p {
+	margin: 1em 0;
+}
+
+/* Segment */
+
+.ui.segment {
+	position: relative;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+	margin: 1em 0em;
+	padding: 1em;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ui.segment:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Form */
+
+.ui.form {
+	position: relative;
+	max-width: 100%;
+}
+
+.ui.form :first-child {
+	margin-top: 0em;
+}
+
+.ui.form :last-child {
+	margin-bottom: 0em;
+}
+
+/* Field */
+
+.ui.form .field {
+	clear: both;
+	margin: 0em 0em 1em;
+}
+
+/* Labels */
+
+.ui.form .field > label {
+	margin: 0em 0em 0.3em;
+	display: block;
+	color: #555555;
+	font-size: 0.875em;
+}
+
+.ui.label {
+	display: inline-block;
+	vertical-align: middle;
+	margin: -0.25em 0.25em 0em;
+	background-color: #e8e8e8;
+	border-color: #e8e8e8;
+	padding: 0.5em 0.8em;
+	color: rgba(0, 0, 0, 0.65);
+	text-transform: uppercase;
+	font-weight: normal;
+	border-radius: 0.325em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	transition: background 0.1s linear;
+}
+
+.ui.label .icon {
+	width: auto;
+}
+
+.ui.label:first-child {
+	margin-left: 0em;
+}
+
+.ui.label:last-child {
+	margin-right: 0em;
+}
+
+/* Fluid */
+
+.ui.label.fluid, .ui.fluid.labels > .label {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Standard Inputs */
+
+.ui.form textarea,
+.ui.form input[type="text"],
+.ui.form input[type="email"],
+.ui.form input[type="url"],
+.ui.form .ui.input {
+	width: 100%;
+}
+
+.ui.form textarea,
+.ui.form input[type="text"],
+.ui.form input[type="email"],
+.ui.form input[type="url"] {
+	margin: 0em;
+	padding: 0.65em 1em;
+	font-size: 1em;
+	background-color: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	outline: none;
+	color: rgba(0, 0, 0, 0.7);
+	border-radius: 0.3125em;
+	-webkit-transition: background-color 0.3s ease-out, -webkit-box-shadow 0.2s ease, border-color 0.2s ease;
+	-moz-transition: background-color 0.3s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
+	transition: background-color 0.3s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
+	-webkit-box-shadow: 0em 0em 0em 0em rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 0em 0em 0em 0em rgba(0, 0, 0, 0.3) inset;
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ui.textarea, .ui.form textarea {
+	line-height: 1.33;
+	min-height: 8em;
+	height: 12em;
+	max-height: 24em;
+	resize: vertical;
+}
+
+.ui.form textarea, .ui.form input[type="checkbox"] {
+	vertical-align: top;
+}
+
+/* Inputs */
+
+.ui.input {
+	display: inline-block;
+	position: relative;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+/* Left Side */
+
+.ui.left.icon.input > .icon {
+	right: auto;
+	left: 1px;
+	border-radius: 0.3125em 0em 0em 0.3125em;
+}
+
+.ui.left.icon.input > .circular.icon {
+	right: auto;
+	left: 0.5em;
+}
+
+.ui.left.icon.input > input {
+	padding-left: 3em !important;
+	padding-right: 1.2em !important;
+}
+
+/* Labeled */
+
+.ui.labeled.input input {
+	padding-right: 2.5em !important;
+}
+
+.ui.labeled.input .corner.label {
+	font-size: 0.7em;
+	border-radius: 0 0.3125em;
+}
+
+.ui.labeled.input .left.corner.label {
+	border-radius: 0.3125em 0;
+}
+
+/* Icons */
+
+.ui.icon.input input {
+	padding-right: 3em !important;
+}
+
+i.icon {
+	display: inline-block;
+	opacity: 0.75;
+	margin: 0em 0.25em 0em 0em;
+	width: 1.23em;
+	height: 1em;
+	font-family: 'Icons';
+	font-style: normal;
+	line-height: 1;
+	font-weight: normal;
+	text-decoration: inherit;
+	text-align: center;
+	speak: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+i.icon.asterisk:before {
+	content: "\f069";
+}
+
+/* left side icons */
+
+i.icon.left {
+	width: auto;
+	margin: 0em 0.5em 0em 0em;
+}
+
+/* right side icons */
+
+i.icon.right {
+	width: auto;
+	margin: 0em 0em 0em 0.5em;
+}
+
+i.icon.left:before {
+	content: "\f060";
+}
+
+i.icon.right:before {
+	content: "\f061";
+}
+
+/* Inverted Colors */
+
+i.inverted.black.icon {
+	background-color: #5C6166 !important;
+	color: #ffffff !important;
+}
+
+/* Sizes */
+
+i.small.icon {
+	font-size: 0.875em;
+}
+
+i.icon {
+	font-size: 1em;
+}
+
+/* Corner Label */
+
+.ui.corner.label {
+	background-color: transparent;
+	position: absolute;
+	top: 0em;
+	right: 0em;
+	z-index: 10;
+	margin: 0em;
+	width: 3em;
+	height: 3em;
+	padding: 0em;
+	text-align: center;
+	-webkit-transition: color 0.2s ease;
+	-moz-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+}
+
+.ui.corner.label:after {
+	position: absolute;
+	content: "";
+	right: 0em;
+	top: 0em;
+	z-index: -1;
+	width: 0em;
+	height: 0em;
+	border-top: 0em solid transparent;
+	border-right: 3em solid transparent;
+	border-bottom: 3em solid transparent;
+	border-left: 0em solid transparent;
+	border-right-color: inherit;
+	-webkit-transition: border-color 0.2s ease;
+	-moz-transition: border-color 0.2s ease;
+	transition: border-color 0.2s ease;
+}
+
+.ui.corner.label .icon {
+	font-size: 0.875em;
+	margin: 0.5em 0em 0em 1.25em;
+}
+
+.ui.corner.label .text {
+	display: inline-block;
+	font-weight: bold;
+	margin: 0.5em 0em 0em 1em;
+	width: 2.5em;
+	font-size: 0.875em;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* Coupling */
+
+.ui.rounded.image > .ui.corner.label, .ui.input > .ui.corner.label, .ui.segment > .ui.corner.label {
+	overflow: hidden;
+}
+
+.ui.segment > .ui.corner.label {
+	top: -1px;
+	right: -1px;
+}
+
+.ui.segment > .ui.left.corner.label {
+	right: auto;
+	left: -1px;
+}
+
+.ui.input > .ui.corner.label {
+	top: 1px;
+}
+
+.ui.input > .ui.right.corner.label {
+	right: auto;
+	left: 1px;
+}
+
+/* Left Corner */
+
+.ui.left.corner.label, .ui.left.corner.label:after {
+	right: auto;
+	left: 0em;
+}
+
+.ui.left.corner.label:after {
+	border-top: 3em solid transparent;
+	border-right: 3em solid transparent;
+	border-bottom: 0em solid transparent;
+	border-left: 0em solid transparent;
+	border-top-color: inherit;
+}
+
+.ui.left.corner.label .icon {
+	margin: 0.5em 0em 0em -1em;
+}
+
+.ui.left.corner.label .text {
+	margin: 0.5em 0em 0em -1em;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+/* Hover */
+
+.ui.corner.label:hover {
+	background-color: transparent;
+}

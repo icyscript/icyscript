@@ -1,0 +1,137 @@
+/* special Login 4 phpfanlist revival */
+
+/* General Stuff */
+
+body {
+	background-image: url(../i/debut-dark2x.png);
+	font-family: 'ostrich-sans-bold', sans-serif;
+	font-size: 1.5em;
+}
+
+/* Typography */
+
+/* Ostrich Sans Bold */
+
+@font-face {
+	font-family: 'ostrich-sans-bold';
+	src: url('../fonts/ostrich-sans-bold.eot');
+	src: url('../fonts/ostrich-sans-bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/ostrich-sans-bold.woff') format('woff'),
+		 url('../fonts/ostrich-sans-bold.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans-bold.svg#ostrich-sans-bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Multi Sans Serif */
+
+@font-face {
+	font-family: 'Muli-Regular';
+	src: url('../fonts/Muli-Regular.eot');
+	src: url('../fonts/Muli-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Muli-Regular.woff') format('woff'),
+		 url('../fonts/Muli-Regular.ttf') format('truetype'),
+		 url('../fonts/Muli-Regular.svg#Muli-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muli-Italic';
+	src: url('../fonts/Muli-Italic.eot');
+	src: url('../fonts/Muli-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Muli-Italic.woff') format('woff'),
+		 url('../fonts/Muli-Italic.ttf') format('truetype'),
+		 url('../fonts/Muli-Italic.svg#Muli-Italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* My Comment */
+
+.log-container {
+	width: 280px;
+	margin: 100px auto;
+	padding: 20px 40px 20px 30px;
+	border: 1px solid #333333;
+	background: rgba(255,255,255,.4);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 0 2px #aaaaaa;
+	-moz-box-shadow: 0 0 2px #aaaaaa;
+	box-shadow: 0 0 2px #aaaaaa;
+}
+
+.log-container h1 {
+	font-size: 2.6em;
+	text-align: center;
+}
+
+#log-form > div {
+	margin: 10px 5px;
+	padding: 5px 0;
+}
+
+#log-form label {
+	display: none;
+	font-size: 18px;
+	line-height: 26px;
+	color:  #dddddd;
+}
+
+#log-form input[type="text"], #log-form input[type="password"] {
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 6x;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	width: 100%;
+	font-family: 'Muli-Regular', Helvetica, Arial, Verdana, sans-serif;
+	text-align: center;
+	font-size: 13px;
+	color:  #dddddd;
+	line-height: 20px;
+}
+
+#log-form div:nth-child(3) {
+	text-align: center;
+}
+
+#log-form button {
+	font-family: 'Muli-Regular', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 16px;
+	color: #777777;
+	padding: 11px;
+	margin-left: 9px;
+	border: 1px solid #999999;
+	background: #dedede;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#log-form button:active {
+	-webkit-box-shadow: 0px 0px 1px #cccccc;
+	-moz-box-shadow: 0px 0px 1px #cccccc;
+	box-shadow: 0px 0px 1px #cccccc;
+}
+
+#log-form button:hover {
+	background: #666666;
+}
+
+#message {
+	width: 100%;
+	text-align: center
+}
+
+.success {
+	color: green;
+}
+
+.error {
+	color: red;
+}
+

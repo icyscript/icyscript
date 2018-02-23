@@ -1,0 +1,14 @@
+Hi %MEM_NAME%, 
+
+Your application for the %SITE_NAME% (%SITE_URL%) was approved.
+
+You joined with the following information:
+Name:    %MEM_NAME%
+Email:  %MEM_MAIL%
+Url:     %MEM_URL%
+Country: %MEM_COUNTRY%
+
+Additional message:
+%EXTRA_MESSAGE%
+
+%OWNER_NAME%

@@ -1,0 +1,5 @@
+Hi %MEM_NAME%
+
+Your delete request for the %SITE_NAME% (%SITE_URL%) was declined.
+
+%OWNER_NAME%

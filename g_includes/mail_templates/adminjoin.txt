@@ -1,0 +1,5 @@
+Hi %OWNER_NAME%
+
+%MEM_NAME% (%MEM_MAIL%) has just joined your %SITE_NAME%.
+
+Please check %SITE_URL%admin.php?page=queueitem&tid=%MEM_TID% to approve/decline his/her application.

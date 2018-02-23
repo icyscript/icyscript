@@ -1,0 +1,5 @@
+Hi %MEM_NAME%
+
+You are now no longer a member of the %SITE_NAME% (%SITE_URL%)
+
+%OWNER_NAME%

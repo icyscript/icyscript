@@ -1,0 +1,10 @@
+Hi %MEM_NAME%,
+
+Thank you for updating your %SITE_NAME% (%SITE_URL%) member info.
+We succesfully received your request.
+
+Your information will be changed with the next update.
+
+Note: If your email address changed, this message was sent to both the old and the new email address you provided.
+
+%OWNER_NAME%

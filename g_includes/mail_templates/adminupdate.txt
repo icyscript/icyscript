@@ -1,0 +1,5 @@
+Hi %OWNER_NAME%
+
+Member with ID #%MEM_ID% has just requested an update or delete for his/her data on your %SITE_NAME%.
+
+Please check %SITE_URL%admin.php?page=queueitem&tid=%MEM_TID% to approve/decline his/her request.

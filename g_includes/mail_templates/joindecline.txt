@@ -1,0 +1,8 @@
+Hi %MEM_NAME%, 
+
+Your application for the %SITE_NAME% (%SITE_URL%) was declined.
+
+Additional message:
+%EXTRA_MESSAGE%
+
+%OWNER_NAME%
